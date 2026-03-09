@@ -1,0 +1,36 @@
+# Maven & Build
+target/
+build/
+.kotlin
+/nbbuild/
+/dist/
+/nbdist/
+
+# Reports & Results (Özel olarak eklediğin yol dahil)
+allure-results/
+.allure-results/
+allure-report/
+test-results/
+playwright-log.txt
+src/test/java/testInputAndOutput/reports/TestReports.html
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - Eclipse & VS Code
+.classpath
+.project
+.settings/
+.vscode/
+.factorypath
+
+# System Files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
