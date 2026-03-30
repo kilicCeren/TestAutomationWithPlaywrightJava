@@ -1,5 +1,6 @@
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.AriaRole;
+import com.microsoft.playwright.options.LoadState;
 
 import java.awt.*;
 
@@ -14,8 +15,10 @@ public class C13_BuiltInLocators {
         Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
         Page page = browser.newPage();
         page.setViewportSize(width,height);
+        page.setDefaultTimeout(60000);
 
         page.navigate("https://www.getir.com");
+        page.waitForLoadState(LoadState.NETWORKIDLE);
         System.out.println("Site başlığı: " + page.title());
 
         // getByText()
@@ -25,9 +28,14 @@ public class C13_BuiltInLocators {
 
         // getByRole()
         // getByRole() elementi erisilebilirlik rolune gore (buton, link, heading gibi) bulur
-        // loginText2 kısmını şununla değiştir:
-        Locator loginText2 = page.getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName("Giriş yap veya kayıt ol"));
-        System.out.println("2. Text: " + loginText2.innerText());
+        Locator loginText2 = page.getByRole(AriaRole.HEADING,
+                new Page.GetByRoleOptions().setName("Giriş yap veya kayıt ol").setExact(false));
+        if (loginText2.isVisible()) {
+            System.out.println("2. Text (Heading): " + loginText2.innerText());
+        } else {
+            System.out.println("Heading olarak bulunamadı, düz text deneniyor...");
+            System.out.println("2. Text (Simple): " + page.getByText("Giriş yap veya kayıt ol").first().innerText());
+        }
 
         // getByPlaceholder()
         // getByPlaceholder() input alanini placeholder metnine gore bulur
