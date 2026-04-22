@@ -13,7 +13,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
  * ==============================================================================
  * ALLURE V1 vs V2 KARŞILAŞTIRMALI ANALİZ NOTLARI
  * ==============================================================================
- * Özellik          | V1 (Eski Usul)                    | V2 (Senior Usulü)
+ * Özellik          | V1                                | V2
  * -----------------|-----------------------------------|--------------------------
  * Metod Yapısı     | @Step içeren boş metod zorunlu.   | Allure.step() doğrudan kullanılır.
  * Hata Takibi      | Test geneli için görünür.         | İlgili Lambda bloğu altında kırmızı yanar.
@@ -28,7 +28,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
  * Farklar ve Yenilikler:
  * 1. Lambda Expressions: Allure.step() içine gömülen kod blokları sayesinde "Sub-Step" (Alt Adım) hiyerarşisi kurulur.
  * 2. Dinamik Takip: Kod bloğu içindeki herhangi bir hata, doğrudan o adımın altında raporlanır.
- * 3. Hiyerarşik Gruplama: @Epic, @Feature ve @Story ile test raporu kurumsal bir dökümana dönüşür.
+ * 3. Hiyerarşik Gruplama: @Epic, @Feature ve @Story ile test raporu daha kurumsal bir dökümana dönüşür.
  */
 
 @Epic("Görsel Kayıt Sistemleri")
@@ -71,7 +71,7 @@ public class C28_ScreenRecord_AllureReportV2 extends BaseTest {
 
     /*
      * ==================================================================================
-     * ALLURE NOTASYON VE METOD REHBERİ (DETAYLI AÇIKLAMA)
+     * ALLURE NOTASYON VE METOD REHBERİ
      * ==================================================================================
      * * [ TEMEL NOTASYONLAR ]
      * @Epic        -> En üst seviye gruplama. Örn: "Müşteri Alışveriş Yolculuğu"
@@ -81,10 +81,10 @@ public class C28_ScreenRecord_AllureReportV2 extends BaseTest {
      * @Description -> Testin neyi hedeflediğini anlatan detaylı açıklama.
      * * [ TAKİP VE KANIT ARAÇLARI ]
      * @Issue / @TmsLink -> Jira Bug ID veya Test Case linki (Örn: JIRA-123)
-     * @Attachment       -> Rapora ekran görüntüsü veya video "zımbalar".
+     * @Attachment       -> Rapora ekran görüntüsü veya video ekler.
      * Allure.step()     -> Kodun çalıştığı o anı rapor satırı olarak asar.
      * Allure.parameter()-> Testte kullanılan veriyi (User, URL, Path) rapora yazar.
-     * * [ YAŞAM DÖNGÜSÜ (LIFECYCLE) METODLARI ]
+     * * [ LIFECYCLE METODLARI ]
      * Allure.getLifecycle() -> Raporlama sürecine (başlangıç, bitiş, hata) müdahale etmeyi sağlar.
      * Allure.addAttachment()-> Çalışma anında (runtime) rapora dosya eklemek için kullanılır.
      * Allure.label()        -> Raporu filtrelemek için özel etiketler (Owner, Tag vb.) ekler.
