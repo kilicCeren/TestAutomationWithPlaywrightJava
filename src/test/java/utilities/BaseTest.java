@@ -77,7 +77,10 @@ public class BaseTest {
         // 2. Tarayıcı Ayarları: Chromium tabanlı, fiziksel ekranı kaplayan modda başlatılır.
         browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
                 .setHeadless(false)
-                .setArgs(java.util.Arrays.asList("--start-maximized")));
+                .setArgs(java.util.Arrays.asList(
+                        "--start-maximized",   // Mevcut tam ekran argümanın
+                        "--disable-quic"       // ERR_QUIC_PROTOCOL_ERROR  hatası alınmasın diye 'Protokol Hatası' engelleyici
+                )));
 
         // 3. Context Ayarları: Viewport null verildiğinde 'Auto-Resize' aktif olur. Yani pencereye uyumlama
         // Bu sayede o küçülme/basıklık sorunu çözülür.
