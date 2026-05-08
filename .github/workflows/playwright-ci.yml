@@ -40,8 +40,8 @@ jobs:
       # 5. ADIM: Allure Raporu Oluşturma
       - name: Generate Allure Report
         if: always()
-        # Maven'a sonuçların nerede olduğunu açıkça söylüyoruz
-        run: mvn allure:report -Dallure.results.directory=allure-results
+        # "Mevcut dizindeki (./) allure-results klasörüne bak" diyoruz.
+        run: mvn allure:report -Dallure.results.directory=./allure-results
 
       # 6. ADIM: Allure Raporunu GitHub Pages üzerinden canlı yayına alıyoruz.
       - name: Deploy Allure Report to GitHub Pages
