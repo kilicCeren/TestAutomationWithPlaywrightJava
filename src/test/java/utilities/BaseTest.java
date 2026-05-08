@@ -77,8 +77,10 @@ public class BaseTest {
         playwright = Playwright.create();
 
         // 2. Tarayıcı Ayarları: Chromium tabanlı, fiziksel ekranı kaplayan modda başlatılır.
+        boolean isCI = System.getenv("GITHUB_ACTIONS") != null; // GitHub Actions ortamında mıyız?
+
         browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
-                .setHeadless(false)
+                .setHeadless(isCI) // CI ortamındaysa otomatik 'true', bilgisayarda 'false' olur.
                 .setArgs(java.util.Arrays.asList(
                         "--start-maximized",   // Mevcut tam ekran argümanın
                         "--disable-quic"       // ERR_QUIC_PROTOCOL_ERROR  hatası alınmasın diye 'Protokol Hatası' engelleyici

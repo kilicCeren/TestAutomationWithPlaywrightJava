@@ -1,0 +1,53 @@
+name: Playwright Java CI/CD Flow
+
+# Bu akış ne zaman tetiklenecek?
+on:
+  push:
+    branches: ["main"] # Sadece ana branch'e kod gönderildiğinde çalışır.
+  pull_request:
+    branches: ["main"] # Birleştirme isteği (PR) açıldığında testleri doğrular.
+
+jobs:
+  automation-tests:
+    runs-on: ubuntu-latest # Testler ücretsiz Linux (Ubuntu) sunucusunda koşar.
+
+    steps:
+      # 1. ADIM: GitHub deposundaki kodlarımızı sanal makineye indiriyoruz.
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      # 2. ADIM: Java ortamını kuruyoruz. Maven cache ile kütüphane indirme süresini kısaltıyoruz.
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'corretto'
+          java-version: '17'
+          cache: 'maven'
+
+      # 3. ADIM: Playwright tarayıcılarını kuruyoruz.
+      # Önce projeyi derliyoruz, sonra sadece Chromium ve gerekli sistem kütüphanelerini kuruyoruz.
+      - name: Install Playwright Browsers
+        run: |
+          mvn install -DskipTests
+          mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps chromium"
+
+      # 4. ADIM: Testleri koşturuyoruz.
+      # 'continue-on-error' sayesinde test fail olsa bile raporlama adımları çalışmaya devam eder.
+      - name: Execution of Playwright Tests
+        run: mvn test
+        continue-on-error: true
+
+      # 5. ADIM: Allure Raporu Oluşturma
+      - name: Generate Allure Report
+        if: always()
+        # Maven'a sonuçların nerede olduğunu açıkça söylüyoruz
+        run: mvn allure:report -Dallure.results.directory=allure-results
+
+      # 6. ADIM: Allure Raporunu GitHub Pages üzerinden canlı yayına alıyoruz.
+      - name: Deploy Allure Report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target/site/allure-maven-plugin # Allure'un ürettiği HTML raporun yolu
+          destination_dir: allure-history # Raporun URL sonu
