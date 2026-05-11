@@ -31,10 +31,10 @@ jobs:
           mvn install -DskipTests
           mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps chromium"
 
-      # 4. ADIM: Testleri koşturuyoruz.
+      # 4. ADIM: Testleri koşturuyoruz (Debug Modunda)
       # 'continue-on-error' sayesinde test fail olsa bile raporlama adımları çalışmaya devam eder.
       - name: Execution of Playwright Tests
-        run: mvn test
+        run: mvn test -X
         continue-on-error: true
 
       # 5. ADIM: Allure Raporu Oluşturma
