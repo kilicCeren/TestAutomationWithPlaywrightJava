@@ -1,1 +1,1 @@
-🌐 TestAutomationWithPlaywrightJava E2E Projesi
+🌐 TestAutomationWithPlaywrightJava Projesi
