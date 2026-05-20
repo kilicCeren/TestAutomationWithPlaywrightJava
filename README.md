@@ -5,3 +5,19 @@ Bu repository, **Java + Playwright** kullanılarak geliştirilmiş kapsamlı bir
  
  Testler; Playwright framework'ünün modern otomasyon yaklaşımını öğretmek amacıyla aşamalı şekilde yapılandırılmıştır.
  Her sınıf belirli bir Playwright özelliğini veya otomasyon tekniğini derinlemesine ele alacak şekilde tasarlanmıştır.
+
+ ---
+ 
+ # 🎯 Projenin Amacı
+ 
+ - Playwright framework'ünün modern kullanımını öğrenmek
+ - Java ile profesyonel UI test otomasyonu geliştirmek
+ - Dinamik locator stratejilerini uygulamak
+ - Wait strategies (bekleme stratejileri) mantığını kavramak
+ - Screenshot, video recording ve PDF üretimini öğrenmek
+ - Allure Report + Extent Reports hibrit raporlama yapısını uygulamak
+ - CI/CD süreçlerinde Playwright testlerini çalıştırmak
+ - Gerçek test mimarileri ve reusable yapı oluşturmak
+ - BaseTest yaklaşımı ile sürdürülebilir framework mantığını öğrenmek
+ 
+ ---
