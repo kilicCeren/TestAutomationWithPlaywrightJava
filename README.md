@@ -21,3 +21,20 @@ Bu repository, **Java + Playwright** kullanılarak geliştirilmiş kapsamlı bir
  - BaseTest yaklaşımı ile sürdürülebilir framework mantığını öğrenmek
  
  ---
+
+# 🛠️ Kullanılan Teknolojiler ve Araçlar
+
+| Teknoloji | Açıklama |
+|----------|----------|
+| **Java 17** | Test otomasyon dili |
+| **Playwright 1.49.0** | Modern web otomasyon framework'ü |
+| **JUnit 5** | Test runner ve assertion yapısı |
+| **Allure Report** | Gelişmiş test raporlama sistemi |
+| **Extent Reports** | HTML tabanlı görsel raporlama |
+| **JavaFaker** | Dinamik test verisi üretimi |
+| **SLF4J & Logger** | Loglama sistemi |
+| **Maven** | Dependency ve build yönetimi |
+| **GitHub Actions** | CI/CD otomasyon süreci |
+| **IntelliJ IDEA** | Geliştirme ortamı (IDE) |
+
+---
