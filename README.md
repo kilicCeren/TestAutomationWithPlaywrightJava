@@ -38,3 +38,7 @@ Bu repository, **Java + Playwright** kullanılarak geliştirilmiş kapsamlı bir
 | **IntelliJ IDEA** | Geliştirme ortamı (IDE) |
 
 ---
+
+# 📁 Proje Yapısı
+
+
