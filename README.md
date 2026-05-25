@@ -41,4 +41,58 @@ Bu repository, **Java + Playwright** kullanılarak geliştirilmiş kapsamlı bir
 
 # 📁 Proje Yapısı
 
+```
+TestAutomationWithPlaywrightJava/
+├── .github/workflows/
+│   └── playwright-ci.yml      # CI/CD GitHub Actions yapılandırması
+├── src/test/java/
+│   ├── testInputAndOutput/    # Test sırasında üretilen PDF, Screenshot ve Loglar
+│   │   ├── P12_testOtomasyonuFullPage.pdf
+│   │   ├── P12_testOtomasyonuFullPage.pdf
+│   │   ├── P12_testOtomasyonuFullPage.pdf
+│   │   └── testOtomasyonuPage_logo.png
+│   ├── utilities/             # Yardımcı sınıflar
+│   │   ├── BaseTest.java      # Test öncesi/sonrası kurulumlar (Setup/Teardown)
+│   │   └── ExtentManager.java # Raporlama yöneticisi
+│   ├── C01_AutoClosure.java   # Otomatik tarayıcı kapatma
+│   ├── C02_ManualClosure.java # Manuel tarayıcı kapatma
+│   ├── C03_ScreenSize.java    # Ekran boyutu işlemleri
+│   ├── C04_NavigationMethods.java # Navigasyon (back, forward, reload)
+│   ├── C05_ElementMethods.java # Element metotları
+│   ├── C06_ElementMethods.java # Element metotları
+│   ├── C07_PageCheckBox.java  # Checkbox etkileşimleri
+│   ├── C08_PageCheckBox_Uncheck.java # Checkbox kaldırma işlemleri
+│   ├── C09_PageSelect.java    # Select dropdown işlemleri
+│   ├── C10_TextContent_innerText_innerHTML.java # Text içerik işlemleri
+│   ├── C11_ElementBilgisiAlma_isVisible_isChecked.java # Element bilgi alma işlemleri
+│   ├── C12_Screenshot_Pdf.java # Ekran görüntüsü ve PDF alma
+│   ├── C13_BuiltInLocators.java # Built-in locator kullanımları
+│   ├── C14_OtherLocators.java # Diğer locator türleri
+│   ├── C15_PageAssertions.java # Page assertion işlemleri
+│   ├── C16_LocatorAssertions.java # Locator assertion işlemleri
+│   ├── C17_Iframe.java        # Iframe yönetimi
+│   ├── C18_Actions.java       # Mouse ve keyboard aksiyonları
+│   ├── C19_DragAndDrop.java   # Sürükle ve bırak işlemleri
+│   ├── C20_Dropdown.java      # Dropdown işlemleri
+│   ├── C21_BaseTestKullanimi.java # BaseTest kullanımı
+│   ├── C22_BaseTestKullanimi_ExtentReport.java # Extent Report entegrasyonu
+│   ├── C23_BaseTestKullanimi_AllureReport.java # Allure Report entegrasyonu
+│   ├── C24_SingleFileUpload.java # Tekli dosya yükleme testleri
+│   ├── C25_MultipleFileUpload.java # Çoklu dosya yükleme testleri
+│   ├── C26_MultipleWindow.java # Çoklu pencere yönetimi
+│   ├── C27_ScreenRecord.java  # Ekran kaydı işlemleri
+│   ├── C28_ScreenRecord_AllureReportV2.java # Screen record + Allure raporu
+│   ├── C29_AutomationExerciseSignUp.java # Automation Exercise signup testi
+│   ├── C30_AutomationExerciseSignUp_AllureReportV2.java # Allure Raporu entegrasyonu
+│   ├── C31_Scroll_AllureReportV1.java # Scroll işlemleri ve Allure raporu
+│   ├── C32_Scroll_AllureReportV2.java # Scroll işlemleri ve gelişmiş Allure raporu
+│   ├── C33_WaitStrategies_AllureReportV1.java # Dinamik bekleme stratejileri
+│   ├── C34_WaitStrategies_AllureReportV2.java # Gelişmiş wait stratejileri
+│   └── C35_LocatorMasterNotes.java # Locator master notları
+├── .gitignore                 # Takip edilmeyecek dosyalar
+├── pom.xml                    # Maven bağımlılıkları ve pluginler
+└── README.md
+```
+---
+
 
