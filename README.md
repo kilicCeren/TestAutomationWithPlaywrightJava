@@ -95,4 +95,7 @@ TestAutomationWithPlaywrightJava/
 ```
 ---
 
+### 🏗️ Mimari ve Evrimsel Gelişim (Evolutionary Design)
+Bu projeyi benzersiz kılan, otomasyon yaklaşımlarının zaman içindeki evrimini (V1, V2, V3) içermesidir:
+
 
