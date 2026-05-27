@@ -95,7 +95,18 @@ TestAutomationWithPlaywrightJava/
 ```
 ---
 
-### 🏗️ Mimari ve Evrimsel Gelişim (Evolutionary Design)
-Bu projeyi benzersiz kılan, otomasyon yaklaşımlarının zaman içindeki evrimini (V1, V2, V3) içermesidir:
-
+# 📂 Müfredat ve Sınıf Yapısı (C01 - C35)
+ 
+ Proje, 35 farklı sınıfta Playwright otomasyonunun kritik konularını kapsamaktadır:
+ 
+ | Seviye | Konular | Örnek Sınıflar |
+ |----------|----------|----------|
+ | **Temel UI** | Browser yönetimi, navigation, auto/manual closure | C01 - C04 |
+ | **Element İşlemleri** | Locator stratejileri, assertions, dropdown, checkbox | C05 - C20 |
+ | **İleri Seviye UI** | Iframe, multiple window, drag & drop, upload | C17 - C26 |
+ | **Raporlama & Medya** | Allure, Extent Report, screenshot, video recording | C22 - C32 |
+ | **Framework Stratejileri** | Wait strategies, BaseTest yapısı, scroll teknikleri | C31 - C35 |
+ 
+ ---
+ 
 
