@@ -108,5 +108,7 @@ TestAutomationWithPlaywrightJava/
  | **Framework Stratejileri** | Wait strategies, BaseTest yapısı, scroll teknikleri | C31 - C35 |
  
  ---
+
+ # 🎯 Kapsanan Otomasyon Konuları 
  
 
