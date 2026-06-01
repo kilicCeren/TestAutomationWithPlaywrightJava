@@ -120,3 +120,5 @@ TestAutomationWithPlaywrightJava/
  | Element Actions | Click, fill, hover, select işlemleri |
  
  ---
+
+## 🗓️ İleri Seviye UI İşlemleri
