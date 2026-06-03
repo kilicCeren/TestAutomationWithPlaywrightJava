@@ -130,3 +130,13 @@ TestAutomationWithPlaywrightJava/
 | File Operations | Tekli/çoklu dosya yükleme işlemleri |
 | Wait Strategies | Auto-waiting, explicit wait, dynamic waits |
 | Scroll Operations | Sayfa scroll stratejileri |
+
+---
+
+## 🗓️ Raporlama ve Medya Yönetimi
+
+
+
+
+
+
