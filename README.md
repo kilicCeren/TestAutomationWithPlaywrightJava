@@ -135,6 +135,16 @@ TestAutomationWithPlaywrightJava/
 
 ## 🗓️ Raporlama ve Medya Yönetimi
 
+| Konu | Açıklama |
+|----------|----------|
+| Allure Report | Modern step-based raporlama |
+| Extent Reports | HTML dashboard raporları |
+| Screen Recording | Test video kayıt sistemi |
+| Screenshot | Full-page ve element screenshot işlemleri |
+| PDF Generation | Sayfa çıktılarının PDF olarak alınması |
+
+---
+
 
 
 
