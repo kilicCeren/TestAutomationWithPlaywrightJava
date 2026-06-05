@@ -145,6 +145,10 @@ TestAutomationWithPlaywrightJava/
 
 ---
 
+# 🏗️ Mimari ve Evrimsel Gelişim (Evolutionary Design)
+
+Bu projeyi farklılaştıran temel noktalardan biri; framework mimarisinin zaman içinde evrimsel olarak geliştirilmiş olmasıdır.
+
 
 
 
