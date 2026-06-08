@@ -149,7 +149,10 @@ TestAutomationWithPlaywrightJava/
 
 Bu projeyi farklılaştıran temel noktalardan biri; framework mimarisinin zaman içinde evrimsel olarak geliştirilmiş olmasıdır.
 
-
+### 1. BaseTest Stratejisi
+*   V1 (Başlangıç): Toolkit ile ekran boyutu alma (Basık ekran ve piksel kaybı sorunları içerir).
+*   V2 (Profesyonel): BrowserContext izolasyonu, --start-maximized argümanı ve setViewportSize(null) ile tam uyumlu ekran ölçekleme.
+*   CI/CD Uyumu: Ortama göre otomatik Headless (GitHub Actions) veya Headed (Lokal) mod değişimi.
 
 
 
