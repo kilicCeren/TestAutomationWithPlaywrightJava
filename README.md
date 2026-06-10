@@ -154,6 +154,18 @@ Bu projeyi farklılaştıran temel noktalardan biri; framework mimarisinin zaman
 *   V2 (Profesyonel): BrowserContext izolasyonu, --start-maximized argümanı ve setViewportSize(null) ile tam uyumlu ekran ölçekleme.
 *   CI/CD Uyumu: Ortama göre otomatik Headless (GitHub Actions) veya Headed (Lokal) mod değişimi.
 
+### V2 (Profesyonel Yaklaşım)
+- BrowserContext izolasyonu
+- `--start-maximized` desteği
+- `setViewportSize(null)` kullanımı
+- Daha stabil ekran ölçekleme sistemi
+
+### CI/CD Uyumlu Mimari
+- Lokal ortamda headed mode
+- GitHub Actions ortamında headless mode
+- Ortama göre otomatik browser stratejisi
+
+---
 
 
 
