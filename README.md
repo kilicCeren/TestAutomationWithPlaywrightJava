@@ -171,5 +171,10 @@ Bu projeyi farklılaştıran temel noktalardan biri; framework mimarisinin zaman
 
 Proje aynı anda birden fazla raporlama sistemini desteklemektedir:
 
+### Allure Report V1
+- @Step anotasyonları
+- Klasik step tabanlı raporlama
+
+
 
 
