@@ -175,6 +175,8 @@ Proje aynı anda birden fazla raporlama sistemini desteklemektedir:
 - @Step anotasyonları
 - Klasik step tabanlı raporlama
 
-
-
+### Allure Report V2
+- `Allure.step()` lambda yaklaşımı
+- Nested reporting yapısı
+- Daha okunabilir modern raporlama sistemi
 
