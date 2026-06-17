@@ -185,3 +185,9 @@ Proje aynı anda birden fazla raporlama sistemini desteklemektedir:
 - Görsel raporlama ekranı
 - Test summary sistemi
 
+### Logger Sistemi
+- Konsol üzerinden gerçek zamanlı loglama
+- Hata ayıklama kolaylığı
+
+---
+
