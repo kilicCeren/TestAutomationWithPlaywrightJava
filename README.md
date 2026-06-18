@@ -190,4 +190,7 @@ Proje aynı anda birden fazla raporlama sistemini desteklemektedir:
 - Hata ayıklama kolaylığı
 
 ---
+# 🔄 CI/CD Süreci (GitHub Actions)
+
+Proje GitHub Actions ile otomatik test pipeline yapısına sahiptir.
 
