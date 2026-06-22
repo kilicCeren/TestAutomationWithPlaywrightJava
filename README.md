@@ -209,4 +209,8 @@ CI/CD sürecinde:
 
 Son test sonuçlarını görmek için aşağıdaki Allure raporunu inceleyebilirsiniz:
 
+[![Allure Report](https://img.shields.io/badge/Allure%20Report-Live-green?style=for-the-badge&logo=allure)](https://kilicceren.github.io/TestAutomationWithPlaywrightJava/allure-history/)
+
+---
+
 
