@@ -205,3 +205,8 @@ CI/CD sürecinde:
 
 ---
 
+# 📊 Test Otomasyon Raporu
+
+Son test sonuçlarını görmek için aşağıdaki Allure raporunu inceleyebilirsiniz:
+
+
