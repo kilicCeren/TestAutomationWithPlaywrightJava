@@ -243,3 +243,9 @@ Tüm testleri çalıştırmak için:
 mvn test
 ```
 Belirli bir test sınıfını çalıştırmak için:
+
+```bash
+mvn test -Dtest=C30_AutomationExerciseSignUp_AllureReportV2
+```
+
+---
