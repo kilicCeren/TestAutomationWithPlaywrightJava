@@ -249,3 +249,5 @@ mvn test -Dtest=C30_AutomationExerciseSignUp_AllureReportV2
 ```
 
 ---
+
+Allure Raporunu görüntülemek için:
