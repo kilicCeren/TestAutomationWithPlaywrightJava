@@ -257,3 +257,8 @@ Allure Raporunu görüntülemek için:
  ```
  
  ---
+ # 📌 Projenin Sağladıkları
+
+- Modern Playwright otomasyon yaklaşımı
+- Profesyonel framework mimarisi
+- Reusable BaseTest yapısı
