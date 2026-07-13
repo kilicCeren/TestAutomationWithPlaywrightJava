@@ -262,3 +262,6 @@ Allure Raporunu görüntülemek için:
 - Modern Playwright otomasyon yaklaşımı
 - Profesyonel framework mimarisi
 - Reusable BaseTest yapısı
+- Hybrid reporting architecture
+- CI/CD entegrasyonu
+- Gelişmiş locator stratejileri
