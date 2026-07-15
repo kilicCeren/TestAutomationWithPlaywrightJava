@@ -268,7 +268,11 @@ Allure Raporunu görüntülemek için:
 - Dynamic wait management
 - Gerçek projeye yakın otomasyon yaklaşımı
 - Video recording ve medya yönetim
+- Scroll ve rendering stratejileri
+- Profesyonel test raporlama sistemi
 
+
+---
 
 
 
