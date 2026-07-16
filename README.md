@@ -274,5 +274,5 @@ Allure Raporunu görüntülemek için:
 
 ---
 
-
+# 📝 Lisans
 
