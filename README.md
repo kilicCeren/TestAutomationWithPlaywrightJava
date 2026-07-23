@@ -285,3 +285,9 @@ Bu proje kişisel eğitim ve portföy amaçlıdır.
 This repository is a comprehensive **modern web test automation** project developed using **Java + Playwright**. The project encompasses a wide range of automation scenarios, starting from basic browser interactions up to advanced UI automation, hybrid reporting systems, screen recording, dynamic wait strategies, CI/CD integration, and professional test architectures.
 
 The tests are structured progressively to teach the modern automation approach of the Playwright framework. Each class is designed to delve deeply into a specific Playwright feature or automation technique.
+
+---
+
+# 🎯 Project Objective
+
+
