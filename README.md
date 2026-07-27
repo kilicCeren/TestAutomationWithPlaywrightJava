@@ -289,5 +289,8 @@ The tests are structured progressively to teach the modern automation approach o
 ---
 
 # 🎯 Project Objective
+- Learning the modern usage of the Playwright framework
+- Developing professional UI test automation using Java
+- Applying dynamic locator strategies
 
 
