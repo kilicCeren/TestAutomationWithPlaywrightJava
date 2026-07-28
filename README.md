@@ -292,5 +292,8 @@ The tests are structured progressively to teach the modern automation approach o
 - Learning the modern usage of the Playwright framework
 - Developing professional UI test automation using Java
 - Applying dynamic locator strategies
+- Understanding the logic of wait strategies
+- Learning screenshot, video recording, and PDF generation
+- Implementing a hybrid reporting structure with Allure Report + Extent Reports
 
 
