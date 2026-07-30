@@ -295,5 +295,8 @@ The tests are structured progressively to teach the modern automation approach o
 - Understanding the logic of wait strategies
 - Learning screenshot, video recording, and PDF generation
 - Implementing a hybrid reporting structure with Allure Report + Extent Reports
+- Running Playwright tests in CI/CD pipelines
+- ​Creating real test architectures and reusable structures
+- ​Learning sustainable framework logic with the BaseTest approach
 
 
