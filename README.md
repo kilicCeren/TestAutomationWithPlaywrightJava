@@ -299,4 +299,7 @@ The tests are structured progressively to teach the modern automation approach o
 - ​Creating real test architectures and reusable structures
 - ​Learning sustainable framework logic with the BaseTest approach
 
+---
+# 🛠️ Technologies and Tools Used
+
 
