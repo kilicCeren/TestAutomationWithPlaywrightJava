@@ -1,4 +1,4 @@
-# 🌐 TestAutomationWithPlaywrightJava Projesi
+Nuıkıop# 🌐 TestAutomationWithPlaywrightJava Projesi
 
 Bu repository, **Java + Playwright** kullanılarak geliştirilmiş kapsamlı bir **modern web test otomasyonu** projesidir.
  Proje; temel tarayıcı etkileşimlerinden başlayarak ileri seviye UI otomasyonu, hibrit raporlama sistemleri, ekran kaydı, dinamik bekleme stratejileri, CI/CD entegrasyonu ve profesyonel test mimarilerine kadar geniş kapsamlı otomasyon senaryoları içermektedir.
@@ -307,6 +307,10 @@ The tests are structured progressively to teach the modern automation approach o
 | **Java 17** | Test automation language |
 | **Playwright 1.49.0** | Modern web automation framework |
 | **JUnit 5** | Test runner and assertion structure |
+| **Allure Report** | Advanced test reporting system |
+| **Extent Reports** | HTML-based visual reporting |
+| **JavaFaker** | Dynamic test data generation |
+
 
 
 
