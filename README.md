@@ -327,6 +327,10 @@ TestAutomationWithPlaywrightJava/
 │   ├── testInputAndOutput/    # PDFs, screenshots, and logs generated during test execution
 │   │   ├── P12_testOtomasyonuFullPage.pdf
 │   │   ├── P12_testOtomasyonuFullPage.pdf
+│   │   ├── P12_testOtomasyonuFullPage.pdf
+│   │   └── testOtomasyonuPage_logo.png
+│   ├── utilities/             # Helper / Utility classes
+│   │   ├── BaseTest.java      # Pre-test and post-test setup/teardown configurations
 
 
 ```
