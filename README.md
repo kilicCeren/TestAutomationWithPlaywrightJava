@@ -331,6 +331,8 @@ TestAutomationWithPlaywrightJava/
 │   │   └── testOtomasyonuPage_logo.png
 │   ├── utilities/             # Helper / Utility classes
 │   │   ├── BaseTest.java      # Pre-test and post-test setup/teardown configurations
+│   │   └── ExtentManager.java # Reporting manager
+│   ├── C01_AutoClosure.java   # Automatic browser closure
 
 
 ```
