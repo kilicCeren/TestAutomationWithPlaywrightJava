@@ -334,6 +334,7 @@ TestAutomationWithPlaywrightJava/
 │   │   └── ExtentManager.java # Reporting manager
 │   ├── C01_AutoClosure.java   # Automatic browser closure
 │   ├── C02_ManualClosure.java # Manual browser closure
+│   ├── C03_ScreenSize.java    # Viewport / Screen size configurations
 
 
 ```
