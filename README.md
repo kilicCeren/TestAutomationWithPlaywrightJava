@@ -338,6 +338,10 @@ TestAutomationWithPlaywrightJava/
 │   ├── C04_NavigationMethods.java # Navigation methods (back, forward, reload)
 │   ├── C05_ElementMethods.java # Element interaction methods
 │   ├── C06_ElementMethods.java # Element interaction methods
+│   ├── C07_PageCheckBox.java  # Checkbox interactions
+│   ├── C08_PageCheckBox_Uncheck.java # Checkbox unchecking operations
+│   ├── C09_PageSelect.java    # Select dropdown operations
+
 
 ```
 
