@@ -347,6 +347,8 @@ TestAutomationWithPlaywrightJava/
 │   ├── C13_BuiltInLocators.java # Usage of Playwright built-in locators
 │   ├── C14_OtherLocators.java # Other locator strategies
 │   ├── C15_PageAssertions.java # Page-level assertion operations
+│   │   └── ExtentManager.java # Reporting manager
+│   ├── C01_AutoClosure.java   # Automatic browser closure
 
 
 ```
