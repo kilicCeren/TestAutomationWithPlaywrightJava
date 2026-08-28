@@ -351,6 +351,8 @@ TestAutomationWithPlaywrightJava/
 │   ├── C01_AutoClosure.java   # Automatic browser closure
 │   ├── C02_ManualClosure.java # Manual browser closure
 │   ├── C03_ScreenSize.java    # Viewport / Screen size configurations
+│   ├── C04_NavigationMethods.java # Navigation methods (back, forward, reload)
+│   ├── C05_ElementMethods.java # Element interaction methods
 
 ```
 
