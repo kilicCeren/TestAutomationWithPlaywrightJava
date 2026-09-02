@@ -356,6 +356,8 @@ TestAutomationWithPlaywrightJava/
 │   ├── C06_ElementMethods.java # Element interaction methods
 │   ├── C07_PageCheckBox.java  # Checkbox interactions
 │   ├── C08_PageCheckBox_Uncheck.java # Checkbox unchecking operations
+│   ├── C09_PageSelect.java    # Select dropdown operations
+│   ├── C10_TextContent_innerText_innerHTML.java # Text content extraction operations
 
 ```
 
