@@ -1,4 +1,4 @@
-# 🌐 TestAutomationWithPlaywrightJava Projesi
+🌐 TestAutomationWithPlaywrightJava Projesi
 
 Bu repository, **Java + Playwright** kullanılarak geliştirilmiş kapsamlı bir **modern web test otomasyonu** projesidir.
  Proje; temel tarayıcı etkileşimlerinden başlayarak ileri seviye UI otomasyonu, hibrit raporlama sistemleri, ekran kaydı, dinamik bekleme stratejileri, CI/CD entegrasyonu ve profesyonel test mimarilerine kadar geniş kapsamlı otomasyon senaryoları içermektedir.
@@ -358,6 +358,8 @@ TestAutomationWithPlaywrightJava/
 │   ├── C08_PageCheckBox_Uncheck.java # Checkbox unchecking operations
 │   ├── C09_PageSelect.java    # Select dropdown operations
 │   ├── C10_TextContent_innerText_innerHTML.java # Text content extraction operations
+│   ├── C11_ElementBilgisiAlma_isVisible_isChecked.java # Element state verification operations
+│   ├── C12_Screenshot_Pdf.java # Capturing screenshots and generating PDFs
 
 ```
 
