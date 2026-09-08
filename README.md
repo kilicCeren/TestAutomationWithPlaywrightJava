@@ -362,6 +362,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C12_Screenshot_Pdf.java # Capturing screenshots and generating PDFs
 │   ├── C13_BuiltInLocators.java # Usage of Playwright built-in locators
 │   ├── C14_OtherLocators.java # Other locator strategies
+│   ├── C15_PageAssertions.java # Page-level assertion operations
 
 ```
 
