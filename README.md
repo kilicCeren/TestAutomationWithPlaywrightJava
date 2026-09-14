@@ -365,6 +365,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C15_PageAssertions.java # Page-level assertion operations
 │   ├── C16_LocatorAssertions.java # Locator-level assertion operations
 │   ├── C17_Iframe.java        # Iframe handling and management
+│   ├── C18_Actions.java       # Mouse and keyboard action interactions
 
 ```
 
