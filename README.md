@@ -366,6 +366,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C16_LocatorAssertions.java # Locator-level assertion operations
 │   ├── C17_Iframe.java        # Iframe handling and management
 │   ├── C18_Actions.java       # Mouse and keyboard action interactions
+│   ├── C19_DragAndDrop.java   # Drag and drop operations
 
 ```
 
