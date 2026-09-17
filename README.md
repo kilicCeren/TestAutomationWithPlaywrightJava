@@ -368,6 +368,9 @@ TestAutomationWithPlaywrightJava/
 │   ├── C18_Actions.java       # Mouse and keyboard action interactions
 │   ├── C19_DragAndDrop.java   # Drag and drop operations
 │   ├── C20_Dropdown.java      # Dropdown handling operations
+│   ├── C21_BaseTestKullanimi.java # Implementation of BaseTest class
+
+
 
 ```
 
