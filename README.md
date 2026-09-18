@@ -1,4 +1,4 @@
-🌐 TestAutomationWithPlaywrightJava Projesi
+Kıu🌐 TestAutomationWithPlaywrightJava Projesi
 
 Bu repository, **Java + Playwright** kullanılarak geliştirilmiş kapsamlı bir **modern web test otomasyonu** projesidir.
  Proje; temel tarayıcı etkileşimlerinden başlayarak ileri seviye UI otomasyonu, hibrit raporlama sistemleri, ekran kaydı, dinamik bekleme stratejileri, CI/CD entegrasyonu ve profesyonel test mimarilerine kadar geniş kapsamlı otomasyon senaryoları içermektedir.
@@ -369,7 +369,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C19_DragAndDrop.java   # Drag and drop operations
 │   ├── C20_Dropdown.java      # Dropdown handling operations
 │   ├── C21_BaseTestKullanimi.java # Implementation of BaseTest class
-
+│   ├── C22_BaseTestKullanimi_ExtentReport.java # Extent Reports integration with BaseTest
 
 
 ```
