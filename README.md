@@ -370,6 +370,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C20_Dropdown.java      # Dropdown handling operations
 │   ├── C21_BaseTestKullanimi.java # Implementation of BaseTest class
 │   ├── C22_BaseTestKullanimi_ExtentReport.java # Extent Reports integration with BaseTest
+│   ├── C23_BaseTestKullanimi_AllureReport.java # Allure Report integration with BaseTest
 
 
 ```
