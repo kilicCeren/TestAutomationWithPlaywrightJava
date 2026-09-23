@@ -372,7 +372,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C22_BaseTestKullanimi_ExtentReport.java # Extent Reports integration with BaseTest
 │   ├── C23_BaseTestKullanimi_AllureReport.java # Allure Report integration with BaseTest
 │   ├── C24_SingleFileUpload.java # Single file upload tests
-
+│   ├── C25_MultipleFileUpload.java # Multiple file upload tests
 
 ```
 
