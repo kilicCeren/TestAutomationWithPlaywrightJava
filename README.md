@@ -373,6 +373,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C23_BaseTestKullanimi_AllureReport.java # Allure Report integration with BaseTest
 │   ├── C24_SingleFileUpload.java # Single file upload tests
 │   ├── C25_MultipleFileUpload.java # Multiple file upload tests
+│   ├── C26_MultipleWindow.java # Multiple tab / window management
 
 ```
 
