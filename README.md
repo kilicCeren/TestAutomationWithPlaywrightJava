@@ -374,6 +374,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C24_SingleFileUpload.java # Single file upload tests
 │   ├── C25_MultipleFileUpload.java # Multiple file upload tests
 │   ├── C26_MultipleWindow.java # Multiple tab / window management
+│   ├── C27_ScreenRecord.java  # Video recording operations
 
 ```
 
