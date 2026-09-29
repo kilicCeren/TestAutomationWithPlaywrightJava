@@ -376,6 +376,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C26_MultipleWindow.java # Multiple tab / window management
 │   ├── C27_ScreenRecord.java  # Video recording operations
 │   ├── C28_ScreenRecord_AllureReportV2.java # Video recording + Allure Report integration
+│   ├── C29_AutomationExerciseSignUp.java # Automation Exercise sign-up test
 
 ```
 
