@@ -378,6 +378,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C28_ScreenRecord_AllureReportV2.java # Video recording + Allure Report integration
 │   ├── C29_AutomationExerciseSignUp.java # Automation Exercise sign-up test
 │   ├── C30_AutomationExerciseSignUp_AllureReportV2.java # Sign-up test with Allure Report integration
+│   ├── C31_Scroll_AllureReportV1.java # Scroll operations with Allure Report integration
 ```
 
 
