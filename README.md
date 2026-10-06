@@ -380,6 +380,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C30_AutomationExerciseSignUp_AllureReportV2.java # Sign-up test with Allure Report integration
 │   ├── C31_Scroll_AllureReportV1.java # Scroll operations with Allure Report integration
 │   ├── C32_Scroll_AllureReportV2.java # Advanced scroll operations with Allure Report
+│   ├── C33_WaitStrategies_AllureReportV1.java # Dynamic wait strategies with Allure Report
 ```
 
 
