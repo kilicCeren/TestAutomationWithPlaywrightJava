@@ -385,6 +385,7 @@ TestAutomationWithPlaywrightJava/
 │   └── C35_LocatorMasterNotes.java # Comprehensive locator master notes
 ├── .gitignore                 # Git ignore rules
 ├── pom.xml                    # Maven dependencies and build configurations
+└── README.md
 ```
 
 
