@@ -384,6 +384,7 @@ TestAutomationWithPlaywrightJava/
 │   ├── C33_WaitStrategies_AllureReportV1.java # Dynamic wait strategies with Allure Report
 │   ├── C34_WaitStrategies_AllureReportV2.java # Advanced wait strategies with Allure Report
 │   └── C35_LocatorMasterNotes.java # Comprehensive locator master notes
+├── allure-results/
 ├── .gitignore                 # Git ignore rules
 ├── pom.xml                    # Maven dependencies and build configurations
 └── README.md
