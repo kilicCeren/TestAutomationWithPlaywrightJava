@@ -391,6 +391,8 @@ TestAutomationWithPlaywrightJava/
 ```
 ---
 
+# 📂 Curriculum and Class Structure (C01 - C35)
+
 
 
 
