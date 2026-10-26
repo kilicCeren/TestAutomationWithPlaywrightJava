@@ -395,6 +395,7 @@ TestAutomationWithPlaywrightJava/
 The project covers critical Playwright automation topics across 35 different classes:
 | Level | Topics | Example Classes |
 |----------|----------|----------|
+| **Basic UI** | Browser management, navigation, auto/manual closure | C01 - C04 |
 
 
 
