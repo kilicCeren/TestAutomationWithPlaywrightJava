@@ -396,6 +396,7 @@ The project covers critical Playwright automation topics across 35 different cla
 | Level | Topics | Example Classes |
 |----------|----------|----------|
 | **Basic UI** | Browser management, navigation, auto/manual closure | C01 - C04 |
+| **Element Interactions** | Locator strategies, assertions, dropdowns, checkboxes | C05 - C20 |
 
 
 
