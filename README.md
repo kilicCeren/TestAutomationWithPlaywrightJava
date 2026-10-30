@@ -398,6 +398,7 @@ The project covers critical Playwright automation topics across 35 different cla
 | **Basic UI** | Browser management, navigation, auto/manual closure | C01 - C04 |
 | **Element Interactions** | Locator strategies, assertions, dropdowns, checkboxes | C05 - C20 |
 | **Advanced UI** | Iframes, multiple windows, drag & drop, uploads | C17 - C26 |
+| **Reporting & Media** | Allure, Extent Reports, screenshots, video recording | C22 - C32 |
 
 
 
