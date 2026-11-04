@@ -404,6 +404,7 @@ The project covers critical Playwright automation topics across 35 different cla
 ---
 
 # 🎯 Covered Automation Topics
+## 🗓️ Basic Interactions
 
 
 
