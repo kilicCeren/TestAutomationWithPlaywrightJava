@@ -413,6 +413,7 @@ The project covers critical Playwright automation topics across 35 different cla
 | Element Actions | Click, fill, hover, and select operations |
 
 
+---
 
 
 
