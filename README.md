@@ -418,3 +418,4 @@ The project covers critical Playwright automation topics across 35 different cla
 | Topic | Description |
 |----------|----------|
 | Iframe & Windows | Multiple tab and iframe management |
+| Actions | Drag and drop, keyboard, and mouse actions |
