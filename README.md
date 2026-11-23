@@ -423,5 +423,7 @@ The project covers critical Playwright automation topics across 35 different cla
 | Wait Strategies | Auto-waiting, explicit waits, and dynamic waits |
 | Scroll Operations | Page scrolling strategies | 
 
+---
+
 
 
