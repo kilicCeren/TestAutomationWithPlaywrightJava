@@ -428,4 +428,5 @@ The project covers critical Playwright automation topics across 35 different cla
 ## 🗓️ Reporting and Media Management
 | Topic | Description |
 |----------|----------|
+| Allure Report | Modern step-based reporting |
 
