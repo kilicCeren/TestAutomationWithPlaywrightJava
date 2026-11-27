@@ -429,4 +429,5 @@ The project covers critical Playwright automation topics across 35 different cla
 | Topic | Description |
 |----------|----------|
 | Allure Report | Modern step-based reporting |
+| Extent Reports | HTML dashboard reports |
 
